@@ -104,7 +104,7 @@
     }
 }
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 450px){
     main{
         .video-grid{
             --gap:40px;
@@ -178,4 +178,18 @@
 
 }
 
+@media screen and (max-width: 330px){
+    .contenido h1{
+        font-size: 40px;
+        margin-left: 40px;
+        margin-top: 180px;
+    }
+    
+    .contenido p{
+        font-size: 60px;
+        font-weight: bolder;
+        color: blueviolet;
+        margin-left: 40px;
+    }
 
+}
